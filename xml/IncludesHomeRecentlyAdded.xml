@@ -249,12 +249,12 @@
 					<viewtype label="535">list</viewtype>
 					<pagecontrol></pagecontrol>
 					<scrolltime>200</scrolltime>
-					<itemlayout height="660" width="630">
+					<itemlayout height="220" width="210">
 						<control type="image">
 							<posx>0</posx>
 							<posy>0</posy>
-							<width>630</width>
-							<height>660</height>
+							<width>210</width>
+							<height>220</height>
 							<texture>black.png</texture>
 							<bordertexture border="6">panel_shadow.png</bordertexture>
 							<bordersize>5</bordersize>
@@ -263,8 +263,8 @@
 						<control type="image">
 							<posx>15</posx>
 							<posy>15</posy>
-							<width>630</width>
-							<height>660</height>
+							<width>180</width>
+							<height>165</height>
 							<texture background="true">$INFO[Listitem.Icon]</texture>
 						</control>
 						<control type="label">
@@ -280,12 +280,12 @@
 							<label>$INFO[ListItem.Label]</label>
 						</control>
 					</itemlayout>
-					<focusedlayout height="660" width="630">
+					<focusedlayout height="170" width="160">
 						<control type="image">
 							<posx>0</posx>
 							<posy>0</posy>
-							<width>630</width>
-							<height>660</height>
+							<width>210</width>
+							<height>220</height>
 							<texture>black.png</texture>
 							<bordertexture border="6">panel_shadow.png</bordertexture>
 							<bordersize>5</bordersize>
@@ -294,8 +294,8 @@
 						<control type="image">
 							<posx>15</posx>
 							<posy>15</posy>
-							<width>660</width>
-							<height>630</height>
+							<width>180</width>
+							<height>165</height>
 							<texture background="true">$INFO[Listitem.Icon]</texture>
 						</control>
 						<control type="label">
@@ -313,8 +313,8 @@
 						<control type="image">
 							<posx>5</posx>
 							<posy>5</posy>
-							<width>600</width>
-							<height>630</height>
+							<width>200</width>
+							<height>210</height>
 							<texture border="5">thumb_focus.png</texture>
 						</control>
 					</focusedlayout>
