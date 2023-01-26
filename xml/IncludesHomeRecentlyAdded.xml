@@ -263,8 +263,8 @@
 						<control type="image">
 							<posx>15</posx>
 							<posy>15</posy>
-							<width>180</width>
-							<height>165</height>
+							<width>360</width>
+							<height>330</height>
 							<texture background="true">$INFO[Listitem.Icon]</texture>
 						</control>
 						<control type="label">
@@ -294,8 +294,8 @@
 						<control type="image">
 							<posx>15</posx>
 							<posy>15</posy>
-							<width>180</width>
-							<height>165</height>
+							<width>360</width>
+							<height>330</height>
 							<texture background="true">$INFO[Listitem.Icon]</texture>
 						</control>
 						<control type="label">
