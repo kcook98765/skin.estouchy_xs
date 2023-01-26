@@ -249,12 +249,12 @@
 					<viewtype label="535">list</viewtype>
 					<pagecontrol></pagecontrol>
 					<scrolltime>200</scrolltime>
-					<itemlayout height="220" width="210">
+					<itemlayout height="440" width="420">
 						<control type="image">
 							<posx>0</posx>
 							<posy>0</posy>
-							<width>210</width>
-							<height>220</height>
+							<width>420</width>
+							<height>440</height>
 							<texture>black.png</texture>
 							<bordertexture border="6">panel_shadow.png</bordertexture>
 							<bordersize>5</bordersize>
@@ -284,8 +284,8 @@
 						<control type="image">
 							<posx>0</posx>
 							<posy>0</posy>
-							<width>210</width>
-							<height>220</height>
+							<width>420</width>
+							<height>440</height>
 							<texture>black.png</texture>
 							<bordertexture border="6">panel_shadow.png</bordertexture>
 							<bordersize>5</bordersize>
