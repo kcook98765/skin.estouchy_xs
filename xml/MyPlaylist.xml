@@ -35,8 +35,8 @@
 			</include>
 			<include content="Wide" condition="String.IsEqual(Skin.AspectRatio,16:9)"> <!-- view id = 550 -->
 				<param name="panel-width" value="1530"/>
-				<param name="textbox-width-movies" value="1350"/>
-				<param name="textbox-width-episodes" value="1250"/>
+				<param name="textbox-width-movies" value="1230"/>
+				<param name="textbox-width-episodes" value="1140"/>
 			</include>
 			<include content="Wide" condition="String.IsEqual(Skin.AspectRatio,4:3)"> <!-- view id = 550 -->
 				<param name="panel-width" value="1090"/>

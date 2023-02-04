@@ -120,48 +120,48 @@
 				<pagecontrol></pagecontrol>
 				<scrolltime>200</scrolltime>
 				<visible>Container.Content(Movies)</visible>
-				<itemlayout height="30">
+				<itemlayout height="45">
 					<control type="label">
 						<posx>0</posx>
 						<posy>0</posy>
-						<width>200</width>
-						<height>30</height>
-						<font>font20_title</font>
+						<width>300</width>
+						<height>45</height>
+						<font>font28_title</font>
 						<align>right</align>
 						<aligny>center</aligny>
 						<selectedcolor>selected</selectedcolor>
 						<label>$INFO[ListItem.Label]</label>
 					</control>
 					<control type="label">
-						<posx>210</posx>
+						<posx>315</posx>
 						<posy>0</posy>
-						<width>750</width>
-						<height>30</height>
-						<font>font20</font>
+						<width>1125</width>
+						<height>45</height>
+						<font>font24</font>
 						<align>left</align>
 						<aligny>center</aligny>
 						<selectedcolor>white</selectedcolor>
 						<label>$INFO[ListItem.Label2]</label>
 					</control>
 				</itemlayout>
-				<focusedlayout height="30">
+				<focusedlayout height="45">
 					<control type="label">
 						<posx>0</posx>
 						<posy>0</posy>
-						<width>200</width>
-						<height>30</height>
-						<font>font20_title</font>
+						<width>300</width>
+						<height>45</height>
+						<font>font28_title</font>
 						<align>right</align>
 						<aligny>center</aligny>
 						<selectedcolor>selected</selectedcolor>
 						<label>$INFO[ListItem.Label]</label>
 					</control>
 					<control type="label">
-						<posx>210</posx>
+						<posx>315</posx>
 						<posy>0</posy>
-						<width>750</width>
-						<height>30</height>
-						<font>font20</font>
+						<width>1125</width>
+						<height>45</height>
+						<font>font24</font>
 						<align>left</align>
 						<aligny>center</aligny>
 						<selectedcolor>white</selectedcolor>
@@ -249,48 +249,48 @@
 				<pagecontrol></pagecontrol>
 				<scrolltime>200</scrolltime>
 				<visible>Container.Content(TVShows)</visible>
-				<itemlayout height="30">
+				<itemlayout height="45">
 					<control type="label">
 						<posx>0</posx>
 						<posy>0</posy>
-						<width>200</width>
-						<height>30</height>
-						<font>font20_title</font>
+						<width>300</width>
+						<height>45</height>
+						<font>font28_title</font>
 						<align>right</align>
 						<aligny>center</aligny>
 						<selectedcolor>selected</selectedcolor>
 						<label>$INFO[ListItem.Label]</label>
 					</control>
 					<control type="label">
-						<posx>210</posx>
+						<posx>315</posx>
 						<posy>0</posy>
-						<width>750</width>
-						<height>30</height>
-						<font>font20</font>
+						<width>1125</width>
+						<height>45</height>
+						<font>font24</font>
 						<align>left</align>
 						<aligny>center</aligny>
 						<selectedcolor>white</selectedcolor>
 						<label>$INFO[ListItem.Label2]</label>
 					</control>
 				</itemlayout>
-				<focusedlayout height="30">
+				<focusedlayout height="45">
 					<control type="label">
 						<posx>0</posx>
 						<posy>0</posy>
-						<width>200</width>
-						<height>30</height>
-						<font>font20_title</font>
+						<width>300</width>
+						<height>45</height>
+						<font>font28_title</font>
 						<align>right</align>
 						<aligny>center</aligny>
 						<selectedcolor>selected</selectedcolor>
 						<label>$INFO[ListItem.Label]</label>
 					</control>
 					<control type="label">
-						<posx>210</posx>
+						<posx>315</posx>
 						<posy>0</posy>
-						<width>750</width>
-						<height>30</height>
-						<font>font20</font>
+						<width>1125</width>
+						<height>45</height>
+						<font>font24</font>
 						<align>left</align>
 						<aligny>center</aligny>
 						<selectedcolor>white</selectedcolor>
@@ -354,48 +354,48 @@
 				<pagecontrol></pagecontrol>
 				<scrolltime>200</scrolltime>
 				<visible>Container.Content(Episodes)</visible>
-				<itemlayout height="30">
+				<itemlayout height="45">
 					<control type="label">
 						<posx>0</posx>
 						<posy>0</posy>
-						<width>200</width>
-						<height>30</height>
-						<font>font20_title</font>
+						<width>300</width>
+						<height>45</height>
+						<font>font28_title</font>
 						<align>right</align>
 						<aligny>center</aligny>
 						<selectedcolor>selected</selectedcolor>
 						<label>$INFO[ListItem.Label]</label>
 					</control>
 					<control type="label">
-						<posx>210</posx>
+						<posx>315</posx>
 						<posy>0</posy>
-						<width>750</width>
-						<height>30</height>
-						<font>font20</font>
+						<width>1125</width>
+						<height>45</height>
+						<font>font24</font>
 						<align>left</align>
 						<aligny>center</aligny>
 						<selectedcolor>white</selectedcolor>
 						<label>$INFO[ListItem.Label2]</label>
 					</control>
 				</itemlayout>
-				<focusedlayout height="30">
+				<focusedlayout height="45">
 					<control type="label">
 						<posx>0</posx>
 						<posy>0</posy>
-						<width>200</width>
-						<height>30</height>
-						<font>font20_title</font>
+						<width>300</width>
+						<height>45</height>
+						<font>font28_title</font>
 						<align>right</align>
 						<aligny>center</aligny>
 						<selectedcolor>selected</selectedcolor>
 						<label>$INFO[ListItem.Label]</label>
 					</control>
 					<control type="label">
-						<posx>210</posx>
+						<posx>315</posx>
 						<posy>0</posy>
-						<width>750</width>
-						<height>30</height>
-						<font>font20</font>
+						<width>1125</width>
+						<height>45</height>
+						<font>font24</font>
 						<align>left</align>
 						<aligny>center</aligny>
 						<selectedcolor>white</selectedcolor>
@@ -483,48 +483,48 @@
 				<pagecontrol></pagecontrol>
 				<scrolltime>200</scrolltime>
 				<visible>Container.Content(MusicVideos)</visible>
-				<itemlayout height="30">
+				<itemlayout height="45">
 					<control type="label">
 						<posx>0</posx>
 						<posy>0</posy>
-						<width>200</width>
-						<height>30</height>
-						<font>font20_title</font>
+						<width>300</width>
+						<height>45</height>
+						<font>font28_title</font>
 						<align>right</align>
 						<aligny>center</aligny>
 						<selectedcolor>selected</selectedcolor>
 						<label>$INFO[ListItem.Label]</label>
 					</control>
 					<control type="label">
-						<posx>210</posx>
+						<posx>315</posx>
 						<posy>0</posy>
-						<width>750</width>
-						<height>30</height>
-						<font>font20</font>
+						<width>1125</width>
+						<height>45</height>
+						<font>font24</font>
 						<align>left</align>
 						<aligny>center</aligny>
 						<selectedcolor>white</selectedcolor>
 						<label>$INFO[ListItem.Label2]</label>
 					</control>
 				</itemlayout>
-				<focusedlayout height="30">
+				<focusedlayout height="45">
 					<control type="label">
 						<posx>0</posx>
 						<posy>0</posy>
-						<width>200</width>
-						<height>30</height>
-						<font>font20_title</font>
+						<width>300</width>
+						<height>45</height>
+						<font>font28_title</font>
 						<align>right</align>
 						<aligny>center</aligny>
 						<selectedcolor>selected</selectedcolor>
 						<label>$INFO[ListItem.Label]</label>
 					</control>
 					<control type="label">
-						<posx>210</posx>
+						<posx>315</posx>
 						<posy>0</posy>
-						<width>750</width>
-						<height>30</height>
-						<font>font20</font>
+						<width>1125</width>
+						<height>45</height>
+						<font>font24</font>
 						<align>left</align>
 						<aligny>center</aligny>
 						<selectedcolor>white</selectedcolor>
@@ -615,47 +615,47 @@
 			<pagecontrol></pagecontrol>
 			<scrolltime>200</scrolltime>
 			<include>VisibleFadeEffect</include>
-			<itemlayout height="100" width="500">
+			<itemlayout height="150" width="750">
 				<control type="image">
 					<posx>10</posx>
 					<posy>4</posy>
-					<width>100</width>
-					<height>92</height>
+					<width>150</width>
+					<height>138</height>
 					<aspectratio>keep</aspectratio>
 					<texture>$INFO[ListItem.Icon]</texture>
 				</control>
 				<control type="textbox">
-					<posx>120</posx>
+					<posx>180</posx>
 					<posy>12</posy>
 					<width>360</width>
-					<height>78</height>
-					<font>font20</font>
+					<height>117</height>
+					<font>font24</font>
 					<align>left</align>
 					<label>$INFO[ListItem.Label][CR]$INFO[ListItem.Label2,(,)]</label>
 				</control>
 			</itemlayout>
-			<focusedlayout height="100" width="500">
+			<focusedlayout height="150" width="750">
 				<control type="image">
 					<posx>0</posx>
 					<posy>0</posy>
-					<width>500</width>
-					<height>100</height>
+					<width>750</width>
+					<height>150</height>
 					<texture>list_focus.png</texture>
 				</control>
 				<control type="image">
 					<posx>10</posx>
 					<posy>4</posy>
-					<width>100</width>
-					<height>92</height>
+					<width>150</width>
+					<height>138</height>
 					<aspectratio>keep</aspectratio>
 					<texture>$INFO[ListItem.Icon]</texture>
 				</control>
 				<control type="textbox">
-					<posx>120</posx>
+					<posx>180</posx>
 					<posy>12</posy>
 					<width>360</width>
-					<height>78</height>
-					<font>font20</font>
+					<height>117</height>
+					<font>font24</font>
 					<align>left</align>
 					<label>$INFO[ListItem.Label][CR]$INFO[ListItem.Label2,(,)]</label>
 				</control>

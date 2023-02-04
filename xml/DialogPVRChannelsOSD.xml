@@ -55,43 +55,43 @@
 			<viewtype label="535">list</viewtype>
 			<pagecontrol>60</pagecontrol>
 			<scrolltime>200</scrolltime>
-			<itemlayout height="90" width="750">
+			<itemlayout height="135" width="1125">
 				<control type="image">
 					<posx>5</posx>
 					<posy>5</posy>
-					<width>80</width>
-					<height>80</height>
+					<width>120</width>
+					<height>120</height>
 					<texture background="true">$VAR[PosterThumb]</texture>
 					<aspectratio>keep</aspectratio>
 				</control>
 				<control type="label">
-					<posx>100</posx>
+					<posx>150</posx>
 					<posy>0</posy>
-					<width>640</width>
-					<height>40</height>
-					<font>font20_title</font>
+					<width>960</width>
+					<height>60</height>
+					<font>font28_title</font>
 					<selectedcolor>selected</selectedcolor>
 					<align>left</align>
 					<aligny>center</aligny>
 					<label>[B]$INFO[ListItem.ChannelNumberLabel,,. ]$INFO[ListItem.Label][/B]</label>
 				</control>
 				<control type="label">
-					<posx>100</posx>
+					<posx>150</posx>
 					<posy>28</posy>
-					<width>640</width>
-					<height>40</height>
-					<font>font22</font>
+					<width>960</width>
+					<height>60</height>
+					<font>font25</font>
 					<selectedcolor>selected</selectedcolor>
 					<align>left</align>
 					<aligny>center</aligny>
 					<label>$INFO[ListItem.Title]</label>
 				</control>
 				<control type="label">
-					<posx>100</posx>
-					<posy>63</posy>
-					<width>100</width>
-					<height>20</height>
-					<font>font14_title</font>
+					<posx>150</posx>
+					<posy>94</posy>
+					<width>150</width>
+					<height>30</height>
+					<font>font20_title</font>
 					<textcolor>blue</textcolor>
 					<selectedcolor>blue</selectedcolor>
 					<align>center</align>
@@ -103,15 +103,15 @@
 					<posx>200</posx>
 					<posy>70</posy>
 					<width>450</width>
-					<height>10</height>
+					<height>15</height>
 					<info>ListItem.Progress</info>
 				</control>
 				<control type="label">
-					<posx>650</posx>
-					<posy>63</posy>
-					<width>100</width>
-					<height>20</height>
-					<font>font14_title</font>
+					<posx>975</posx>
+					<posy>94</posy>
+					<width>150</width>
+					<height>30</height>
+					<font>font20_title</font>
 					<textcolor>blue</textcolor>
 					<selectedcolor>blue</selectedcolor>
 					<align>center</align>
@@ -119,51 +119,51 @@
 					<visible>ListItem.HasEpg</visible>
 				</control>
 			</itemlayout>
-			<focusedlayout height="90" width="750">
+			<focusedlayout height="135" width="1125">
 				<control type="image">
 					<posx>0</posx>
 					<posy>0</posy>
-					<width>750</width>
-					<height>90</height>
+					<width>1125</width>
+					<height>135</height>
 					<texture>list_focus.png</texture>
 					<include>VisibleFadeEffect</include>
 				</control>
 				<control type="image">
 					<posx>5</posx>
 					<posy>5</posy>
-					<width>80</width>
-					<height>80</height>
+					<width>120</width>
+					<height>120</height>
 					<texture background="true">$VAR[PosterThumb]</texture>
 					<aspectratio>keep</aspectratio>
 				</control>
 				<control type="label">
-					<posx>100</posx>
+					<posx>150</posx>
 					<posy>0</posy>
-					<width>640</width>
-					<height>40</height>
-					<font>font20_title</font>
+					<width>960</width>
+					<height>60</height>
+					<font>font28_title</font>
 					<selectedcolor>selected</selectedcolor>
 					<align>left</align>
 					<aligny>center</aligny>
 					<label>[B]$INFO[ListItem.ChannelNumberLabel,,. ]$INFO[ListItem.Label][/B]</label>
 				</control>
 				<control type="label">
-					<posx>100</posx>
+					<posx>150</posx>
 					<posy>28</posy>
-					<width>640</width>
-					<height>40</height>
-					<font>font22</font>
+					<width>960</width>
+					<height>60</height>
+					<font>font25</font>
 					<selectedcolor>selected</selectedcolor>
 					<align>left</align>
 					<aligny>center</aligny>
 					<label>$INFO[ListItem.Title]</label>
 				</control>
 				<control type="label">
-					<posx>100</posx>
-					<posy>63</posy>
-					<width>100</width>
-					<height>20</height>
-					<font>font14_title</font>
+					<posx>150</posx>
+					<posy>94</posy>
+					<width>150</width>
+					<height>30</height>
+					<font>font20_title</font>
 					<textcolor>blue</textcolor>
 					<selectedcolor>blue</selectedcolor>
 					<align>center</align>
@@ -175,15 +175,15 @@
 					<posx>200</posx>
 					<posy>70</posy>
 					<width>450</width>
-					<height>10</height>
+					<height>15</height>
 					<info>ListItem.Progress</info>
 				</control>
 				<control type="label">
-					<posx>650</posx>
-					<posy>63</posy>
-					<width>100</width>
-					<height>20</height>
-					<font>font14_title</font>
+					<posx>975</posx>
+					<posy>94</posy>
+					<width>150</width>
+					<height>30</height>
+					<font>font20_title</font>
 					<textcolor>blue</textcolor>
 					<selectedcolor>blue</selectedcolor>
 					<align>center</align>

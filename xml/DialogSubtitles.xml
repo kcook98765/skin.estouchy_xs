@@ -66,13 +66,13 @@
 				<viewtype label="535">list</viewtype>
 				<pagecontrol>60</pagecontrol>
 				<scrolltime>200</scrolltime>
-				<itemlayout width="940" height="80">
+				<itemlayout width="1410" height="120">
 					<control type="label">
 						<posx>20</posx>
 						<posy>10</posy>
-						<width>900</width>
-						<height>25</height>
-						<font>font22</font>
+						<width>1350</width>
+						<height>37</height>
+						<font>font25</font>
 						<aligny>center</aligny>
 						<selectedcolor>selected</selectedcolor>
 						<align>left</align>
@@ -80,35 +80,35 @@
 					</control>
 					<control type="image">
 						<posx>20</posx>
-						<posy>44</posy>
-						<width>30</width>
-						<height>20</height>
+						<posy>66</posy>
+						<width>45</width>
+						<height>30</height>
 						<texture>$INFO[Listitem.Thumb,subtitles/flags/,.gif]</texture>
 					</control>
 					<control type="label">
-						<posx>55</posx>
-						<posy>40</posy>
-						<width>80</width>
-						<height>25</height>
-						<font>font20</font>
+						<posx>82</posx>
+						<posy>60</posy>
+						<width>120</width>
+						<height>37</height>
+						<font>font24</font>
 						<aligny>center</aligny>
 						<selectedcolor>selected</selectedcolor>
 						<align>left</align>
 						<label>$INFO[ListItem.Label]</label>
 					</control>
 					<control type="image">
-						<posx>755</posx>
-						<posy>35</posy>
-						<width>60</width>
-						<height>35</height>
+						<posx>1132</posx>
+						<posy>52</posy>
+						<width>90</width>
+						<height>52</height>
 						<texture border="5">flagging/blank.png</texture>
 						<visible>ListItem.property(sync)</visible>
 					</control>
 					<control type="label">
-						<posx>760</posx>
-						<posy>35</posy>
-						<width>50</width>
-						<height>35</height>
+						<posx>1140</posx>
+						<posy>52</posy>
+						<width>75</width>
+						<height>52</height>
 						<font>font11_title</font>
 						<textcolor>white</textcolor>
 						<align>center</align>
@@ -117,29 +117,29 @@
 						<visible>ListItem.property(sync)</visible>
 					</control>
 					<control type="image">
-						<posx>820</posx>
-						<posy>40</posy>
-						<width>100</width>
-						<height>25</height>
+						<posx>1230</posx>
+						<posy>60</posy>
+						<width>150</width>
+						<height>37</height>
 						<aspectratio align="right">keep</aspectratio>
 						<texture>$INFO[ListItem.ActualIcon,subtitles/rating/rating,.png]</texture>
 					</control>
 				</itemlayout>
-				<focusedlayout width="940" height="80">
+				<focusedlayout width="1410" height="120">
 					<control type="image">
 						<posx>0</posx>
 						<posy>0</posy>
-						<width>940</width>
-						<height>80</height>
+						<width>1410</width>
+						<height>120</height>
 						<texture>list_focus.png</texture>
 						<visible>Control.HasFocus(120)</visible>
 					</control>
 					<control type="label">
 						<posx>20</posx>
 						<posy>10</posy>
-						<width>900</width>
-						<height>25</height>
-						<font>font22</font>
+						<width>1350</width>
+						<height>37</height>
+						<font>font25</font>
 						<aligny>center</aligny>
 						<selectedcolor>selected</selectedcolor>
 						<align>left</align>
@@ -147,35 +147,35 @@
 					</control>
 					<control type="image">
 						<posx>20</posx>
-						<posy>44</posy>
-						<width>30</width>
-						<height>20</height>
+						<posy>66</posy>
+						<width>45</width>
+						<height>30</height>
 						<texture>$INFO[Listitem.Thumb,subtitles/flags/,.gif]</texture>
 					</control>
 					<control type="label">
-						<posx>55</posx>
-						<posy>40</posy>
-						<width>80</width>
-						<height>25</height>
-						<font>font20</font>
+						<posx>82</posx>
+						<posy>60</posy>
+						<width>120</width>
+						<height>37</height>
+						<font>font24</font>
 						<aligny>center</aligny>
 						<selectedcolor>selected</selectedcolor>
 						<align>left</align>
 						<label>$INFO[ListItem.Label]</label>
 					</control>
 					<control type="image">
-						<posx>755</posx>
-						<posy>35</posy>
-						<width>60</width>
-						<height>35</height>
+						<posx>1132</posx>
+						<posy>52</posy>
+						<width>90</width>
+						<height>52</height>
 						<texture border="5">flagging/blank.png</texture>
 						<visible>ListItem.property(sync)</visible>
 					</control>
 					<control type="label">
-						<posx>760</posx>
-						<posy>35</posy>
-						<width>50</width>
-						<height>35</height>
+						<posx>1140</posx>
+						<posy>52</posy>
+						<width>75</width>
+						<height>52</height>
 						<font>font11_title</font>
 						<textcolor>white</textcolor>
 						<align>center</align>
@@ -184,10 +184,10 @@
 						<visible>ListItem.property(sync)</visible>
 					</control>
 					<control type="image">
-						<posx>820</posx>
-						<posy>40</posy>
-						<width>100</width>
-						<height>25</height>
+						<posx>1230</posx>
+						<posy>60</posy>
+						<width>150</width>
+						<height>37</height>
 						<aspectratio align="right">keep</aspectratio>
 						<texture>$INFO[ListItem.ActualIcon,subtitles/rating/rating,.png]</texture>
 					</control>
@@ -308,33 +308,33 @@
 				<ondown>160</ondown>
 				<viewtype label="535">list</viewtype>
 				<scrolltime>200</scrolltime>
-				<itemlayout width="320" height="70">
+				<itemlayout width="480" height="105">
 					<control type="label">
 						<posx>10</posx>
 						<posy>0</posy>
-						<width>300</width>
-						<height>70</height>
-						<font>font20</font>
+						<width>450</width>
+						<height>105</height>
+						<font>font24</font>
 						<aligny>center</aligny>
 						<selectedcolor>selected</selectedcolor>
 						<align>center</align>
 						<label>$INFO[ListItem.Label]</label>
 					</control>
 				</itemlayout>
-				<focusedlayout width="320" height="70">
+				<focusedlayout width="480" height="105">
 					<control type="image">
 						<posx>0</posx>
 						<posy>0</posy>
-						<width>320</width>
-						<height>70</height>
+						<width>480</width>
+						<height>105</height>
 						<texture>list_focus.png</texture>
 					</control>
 					<control type="label">
 						<posx>10</posx>
 						<posy>0</posy>
-						<width>300</width>
-						<height>70</height>
-						<font>font20</font>
+						<width>450</width>
+						<height>105</height>
+						<font>font24</font>
 						<aligny>center</aligny>
 						<selectedcolor>selected</selectedcolor>
 						<align>center</align>

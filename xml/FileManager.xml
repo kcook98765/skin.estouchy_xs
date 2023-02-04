@@ -49,72 +49,72 @@
 				<viewtype label="">list</viewtype>
 				<pagecontrol>60</pagecontrol>
 				<scrolltime>200</scrolltime>
-				<itemlayout height="80" width="570">
+				<itemlayout height="120" width="855">
 					<control type="image">
 						<posx>5</posx>
 						<posy>5</posy>
-						<width>70</width>
-						<height>70</height>
+						<width>105</width>
+						<height>105</height>
 						<texture background="true">$INFO[ListItem.Icon]</texture>
 						<aspectratio>keep</aspectratio>
 					</control>
 					<control type="label">
-						<posx>85</posx>
+						<posx>127</posx>
 						<posy>0</posy>
-						<width>475</width>
-						<height>80</height>
-						<font>font20</font>
+						<width>712</width>
+						<height>120</height>
+						<font>font24</font>
 						<selectedcolor>selected</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>
 						<label>$INFO[ListItem.Label]</label>
 					</control>
 					<control type="label">
-						<posx>85</posx>
+						<posx>127</posx>
 						<posy>0</posy>
-						<width>475</width>
-						<height>80</height>
-						<font>font20</font>
+						<width>712</width>
+						<height>120</height>
+						<font>font24</font>
 						<selectedcolor>selected</selectedcolor>
 						<align>right</align>
 						<aligny>center</aligny>
 						<label>$INFO[ListItem.Label2]</label>
 					</control>
 				</itemlayout>
-				<focusedlayout height="80" width="570">
+				<focusedlayout height="120" width="855">
 					<control type="image">
 						<posx>0</posx>
 						<posy>0</posy>
-						<width>570</width>
-						<height>80</height>
+						<width>855</width>
+						<height>120</height>
 						<texture>list_focus.png</texture>
 						<include>VisibleFadeEffect</include>
 					</control>
 					<control type="image">
 						<posx>5</posx>
 						<posy>5</posy>
-						<width>70</width>
-						<height>70</height>
+						<width>105</width>
+						<height>105</height>
 						<texture background="true">$INFO[ListItem.Icon]</texture>
 						<aspectratio>keep</aspectratio>
 					</control>
 					<control type="label">
-						<posx>85</posx>
+						<posx>127</posx>
 						<posy>0</posy>
-						<width>475</width>
-						<height>80</height>
-						<font>font20</font>
+						<width>712</width>
+						<height>120</height>
+						<font>font24</font>
 						<selectedcolor>selected</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>
 						<label>$INFO[ListItem.Label]</label>
 					</control>
 					<control type="label">
-						<posx>85</posx>
+						<posx>127</posx>
 						<posy>0</posy>
-						<width>475</width>
-						<height>80</height>
-						<font>font20</font>
+						<width>712</width>
+						<height>120</height>
+						<font>font24</font>
 						<selectedcolor>selected</selectedcolor>
 						<align>right</align>
 						<aligny>center</aligny>
@@ -178,72 +178,72 @@
 				<viewtype label="">list</viewtype>
 				<pagecontrol>61</pagecontrol>
 				<scrolltime>200</scrolltime>
-				<itemlayout height="80" width="570">
+				<itemlayout height="120" width="855">
 					<control type="image">
 						<posx>5</posx>
 						<posy>5</posy>
-						<width>70</width>
-						<height>70</height>
+						<width>105</width>
+						<height>105</height>
 						<texture background="true">$INFO[ListItem.Icon]</texture>
 						<aspectratio>keep</aspectratio>
 					</control>
 					<control type="label">
-						<posx>85</posx>
+						<posx>127</posx>
 						<posy>0</posy>
-						<width>475</width>
-						<height>80</height>
-						<font>font20</font>
+						<width>712</width>
+						<height>120</height>
+						<font>font24</font>
 						<selectedcolor>selected</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>
 						<label>$INFO[ListItem.Label]</label>
 					</control>
 					<control type="label">
-						<posx>85</posx>
+						<posx>127</posx>
 						<posy>0</posy>
-						<width>475</width>
-						<height>80</height>
-						<font>font20</font>
+						<width>712</width>
+						<height>120</height>
+						<font>font24</font>
 						<selectedcolor>selected</selectedcolor>
 						<align>right</align>
 						<aligny>center</aligny>
 						<label>$INFO[ListItem.Label2]</label>
 					</control>
 				</itemlayout>
-				<focusedlayout height="80" width="570">
+				<focusedlayout height="120" width="855">
 					<control type="image">
 						<posx>0</posx>
 						<posy>0</posy>
-						<width>570</width>
-						<height>80</height>
+						<width>855</width>
+						<height>120</height>
 						<texture>list_focus.png</texture>
 						<include>VisibleFadeEffect</include>
 					</control>
 					<control type="image">
 						<posx>5</posx>
 						<posy>5</posy>
-						<width>70</width>
-						<height>70</height>
+						<width>105</width>
+						<height>105</height>
 						<texture background="true">$INFO[ListItem.Icon]</texture>
 						<aspectratio>keep</aspectratio>
 					</control>
 					<control type="label">
-						<posx>85</posx>
+						<posx>127</posx>
 						<posy>0</posy>
-						<width>475</width>
-						<height>80</height>
-						<font>font20</font>
+						<width>712</width>
+						<height>120</height>
+						<font>font24</font>
 						<selectedcolor>selected</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>
 						<label>$INFO[ListItem.Label]</label>
 					</control>
 					<control type="label">
-						<posx>85</posx>
+						<posx>127</posx>
 						<posy>0</posy>
-						<width>475</width>
-						<height>80</height>
-						<font>font20</font>
+						<width>712</width>
+						<height>120</height>
+						<font>font24</font>
 						<selectedcolor>selected</selectedcolor>
 						<align>right</align>
 						<aligny>center</aligny>

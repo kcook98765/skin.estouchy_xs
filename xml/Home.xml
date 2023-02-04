@@ -45,12 +45,12 @@
 				<ondown>9002</ondown>
 				<scrolltime>0</scrolltime>
 				<orientation>Horizontal</orientation>
-				<itemlayout width="200" height="140">
+				<itemlayout width="300" height="210">
 					<control type="image">
 						<posx>15</posx>
 						<posy>15</posy>
-						<height>110</height>
-						<width>170</width>
+						<height>165</height>
+						<width>255</width>
 						<texture>button_nofocus.png</texture>
 						<bordertexture border="6">panel_shadow.png</bordertexture>
 						<bordersize>5</bordersize>
@@ -58,21 +58,21 @@
 					<control type="label">
 						<posx>5</posx>
 						<posy>0</posy>
-						<height>140</height>
-						<width>190</width>
+						<height>210</height>
+						<width>285</width>
 						<label>$INFO[ListItem.Label]</label>
 						<align>center</align>
 						<aligny>center</aligny>
 						<textcolor>white</textcolor>
-						<font>font22</font>
+						<font>font25</font>
 					</control>
 				</itemlayout>
-				<focusedlayout width="200" height="140">
+				<focusedlayout width="300" height="210">
 					<control type="image">
 						<posx>15</posx>
 						<posy>15</posy>
-						<height>110</height>
-						<width>170</width>
+						<height>165</height>
+						<width>255</width>
 						<texture>button_nofocus.png</texture>
 						<bordertexture border="6">panel_shadow.png</bordertexture>
 						<bordersize>5</bordersize>
@@ -81,8 +81,8 @@
 					<control type="image">
 						<posx>15</posx>
 						<posy>15</posy>
-						<height>110</height>
-						<width>170</width>
+						<height>165</height>
+						<width>255</width>
 						<texture>list_focus.png</texture>
 						<bordertexture border="6">panel_shadow.png</bordertexture>
 						<bordersize>5</bordersize>
@@ -91,13 +91,13 @@
 					<control type="label">
 						<posx>5</posx>
 						<posy>0</posy>
-						<height>140</height>
-						<width>190</width>
+						<height>210</height>
+						<width>285</width>
 						<label>$INFO[ListItem.Label]</label>
 						<align>center</align>
 						<aligny>center</aligny>
 						<textcolor>white</textcolor>
-						<font>font22</font>
+						<font>font25</font>
 					</control>
 				</focusedlayout>
 				<content>

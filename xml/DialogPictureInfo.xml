@@ -54,13 +54,13 @@
 			<ondown>5</ondown>
 			<pagecontrol>60</pagecontrol>
 			<scrolltime>200</scrolltime>
-			<itemlayout height="60">
+			<itemlayout height="90">
 				<control type="label">
 					<posx>20</posx>
 					<posy>0</posy>
-					<width>960</width>
-					<height>60</height>
-					<font>font20_title</font>
+					<width>1440</width>
+					<height>90</height>
+					<font>font28_title</font>
 					<aligny>center</aligny>
 					<selectedcolor>selected</selectedcolor>
 					<label>$INFO[ListItem.Label]</label>
@@ -68,29 +68,29 @@
 				<control type="label">
 					<posx>20</posx>
 					<posy>0</posy>
-					<width>960</width>
-					<height>60</height>
-					<font>font20</font>
+					<width>1440</width>
+					<height>90</height>
+					<font>font24</font>
 					<align>right</align>
 					<aligny>center</aligny>
 					<selectedcolor>white</selectedcolor>
 					<label>$INFO[ListItem.Label2]</label>
 				</control>
 			</itemlayout>
-			<focusedlayout height="60">
+			<focusedlayout height="90">
 				<control type="image">
 					<posx>0</posx>
 					<posy>0</posy>
-					<width>1000</width>
-					<height>60</height>
+					<width>1500</width>
+					<height>90</height>
 					<texture>list_focus.png</texture>
 				</control>
 				<control type="label">
 					<posx>20</posx>
 					<posy>0</posy>
-					<width>960</width>
-					<height>60</height>
-					<font>font20_title</font>
+					<width>1440</width>
+					<height>90</height>
+					<font>font28_title</font>
 					<aligny>center</aligny>
 					<selectedcolor>selected</selectedcolor>
 					<label>$INFO[ListItem.Label]</label>
@@ -98,9 +98,9 @@
 				<control type="label">
 					<posx>20</posx>
 					<posy>0</posy>
-					<width>960</width>
-					<height>60</height>
-					<font>font20</font>
+					<width>1440</width>
+					<height>90</height>
+					<font>font24</font>
 					<align>right</align>
 					<aligny>center</aligny>
 					<selectedcolor>white</selectedcolor>

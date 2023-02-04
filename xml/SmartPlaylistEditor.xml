@@ -113,34 +113,34 @@
 			<ondown>12</ondown>
 			<pagecontrol>60</pagecontrol>
 			<scrolltime>200</scrolltime>
-			<itemlayout height="65">
+			<itemlayout height="97">
 				<control type="label">
 					<posx>20</posx>
 					<posy>0</posy>
-					<width>720</width>
-					<height>65</height>
-					<font>font25</font>
+					<width>1080</width>
+					<height>97</height>
+					<font>font40</font>
 					<align>left</align>
 					<aligny>center</aligny>
 					<selectedcolor>selected</selectedcolor>
 					<label>$INFO[ListItem.Label]</label>
 				</control>
 			</itemlayout>
-			<focusedlayout height="65">
+			<focusedlayout height="97">
 				<control type="image">
 					<posx>0</posx>
 					<posy>0</posy>
-					<width>760</width>
-					<height>65</height>
+					<width>1140</width>
+					<height>97</height>
 					<texture>list_focus.png</texture>
 					<visible>Control.HasFocus(10)</visible>
 				</control>
 				<control type="label">
 					<posx>20</posx>
 					<posy>0</posy>
-					<width>720</width>
-					<height>65</height>
-					<font>font25</font>
+					<width>1080</width>
+					<height>97</height>
+					<font>font40</font>
 					<align>left</align>
 					<aligny>center</aligny>
 					<selectedcolor>selected</selectedcolor>

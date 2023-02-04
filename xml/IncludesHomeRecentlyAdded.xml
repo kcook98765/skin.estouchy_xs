@@ -38,12 +38,12 @@
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>60</pagecontrol>
 					<scrolltime>200</scrolltime>
-					<itemlayout height="330" width="210">
+					<itemlayout height="495" width="315">
 						<control type="image">
 							<posx>0</posx>
 							<posy>0</posy>
-							<width>210</width>
-							<height>330</height>
+							<width>315</width>
+							<height>495</height>
 							<texture>black.png</texture>
 							<bordertexture border="6">panel_shadow.png</bordertexture>
 							<bordersize>5</bordersize>
@@ -52,16 +52,16 @@
 						<control type="image">
 							<posx>15</posx>
 							<posy>15</posy>
-							<width>180</width>
-							<height>270</height>
+							<width>270</width>
+							<height>405</height>
 							<texture background="true">$VAR[PosterThumb]</texture>
 						</control>
 						<control type="label">
 							<posx>10</posx>
-							<posy>290</posy>
-							<width>190</width>
-							<height>25</height>
-							<font>font16</font>
+							<posy>435</posy>
+							<width>285</width>
+							<height>37</height>
+							<font>font22</font>
 							<textcolor>grey2</textcolor>
 							<selectedcolor>selected</selectedcolor>
 							<align>center</align>
@@ -69,12 +69,12 @@
 							<label>$INFO[ListItem.Label]</label>
 						</control>
 					</itemlayout>
-					<focusedlayout height="330" width="210">
+					<focusedlayout height="495" width="315">
 						<control type="image">
 							<posx>0</posx>
 							<posy>0</posy>
-							<width>210</width>
-							<height>330</height>
+							<width>315</width>
+							<height>495</height>
 							<texture>black.png</texture>
 							<bordertexture border="6">panel_shadow.png</bordertexture>
 							<bordersize>5</bordersize>
@@ -83,16 +83,16 @@
 						<control type="image">
 							<posx>15</posx>
 							<posy>15</posy>
-							<width>180</width>
-							<height>270</height>
+							<width>270</width>
+							<height>405</height>
 							<texture background="true">$VAR[PosterThumb]</texture>
 						</control>
 						<control type="label">
 							<posx>10</posx>
-							<posy>290</posy>
-							<width>190</width>
-							<height>25</height>
-							<font>font16</font>
+							<posy>435</posy>
+							<width>285</width>
+							<height>37</height>
+							<font>font22</font>
 							<textcolor>white</textcolor>
 							<selectedcolor>selected</selectedcolor>
 							<align>center</align>
@@ -102,8 +102,8 @@
 						<control type="image">
 							<posx>5</posx>
 							<posy>5</posy>
-							<width>200</width>
-							<height>320</height>
+							<width>300</width>
+							<height>480</height>
 							<texture border="5">thumb_focus.png</texture>
 						</control>
 					</focusedlayout>
@@ -131,12 +131,12 @@
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>60</pagecontrol>
 					<scrolltime>200</scrolltime>
-					<itemlayout height="220" width="280">
+					<itemlayout height="330" width="420">
 						<control type="image">
 							<posx>0</posx>
 							<posy>0</posy>
-							<width>280</width>
-							<height>220</height>
+							<width>420</width>
+							<height>330</height>
 							<texture>black.png</texture>
 							<bordertexture border="6">panel_shadow.png</bordertexture>
 							<bordersize>5</bordersize>
@@ -145,17 +145,17 @@
 						<control type="image">
 							<posx>15</posx>
 							<posy>15</posy>
-							<width>250</width>
-							<height>140</height>
+							<width>375</width>
+							<height>210</height>
 							<aspectratio>scale</aspectratio>
 							<texture background="true">$INFO[Listitem.Icon]</texture>
 						</control>
 						<control type="label">
 							<posx>15</posx>
-							<posy>160</posy>
-							<width>250</width>
-							<height>25</height>
-							<font>font16</font>
+							<posy>240</posy>
+							<width>375</width>
+							<height>37</height>
+							<font>font22</font>
 							<textcolor>grey2</textcolor>
 							<selectedcolor>selected</selectedcolor>
 							<align>center</align>
@@ -164,10 +164,10 @@
 						</control>
 						<control type="label">
 							<posx>15</posx>
-							<posy>185</posy>
-							<width>250</width>
-							<height>20</height>
-							<font>font16</font>
+							<posy>277</posy>
+							<width>375</width>
+							<height>30</height>
+							<font>font22</font>
 							<textcolor>grey2</textcolor>
 							<selectedcolor>selected</selectedcolor>
 							<align>center</align>
@@ -175,12 +175,12 @@
 							<label>[UPPERCASE]$INFO[ListItem.TVShowTitle][/UPPERCASE]</label>
 						</control>
 					</itemlayout>
-					<focusedlayout height="250" width="213">
+					<focusedlayout height="375" width="319">
 						<control type="image">
 							<posx>0</posx>
 							<posy>0</posy>
-							<width>280</width>
-							<height>220</height>
+							<width>420</width>
+							<height>330</height>
 							<texture>black.png</texture>
 							<bordertexture border="6">panel_shadow.png</bordertexture>
 							<bordersize>5</bordersize>
@@ -189,17 +189,17 @@
 						<control type="image">
 							<posx>15</posx>
 							<posy>15</posy>
-							<width>250</width>
-							<height>140</height>
+							<width>375</width>
+							<height>210</height>
 							<aspectratio>scale</aspectratio>
 							<texture background="true">$INFO[Listitem.Icon]</texture>
 						</control>
 						<control type="label">
 							<posx>15</posx>
-							<posy>160</posy>
-							<width>250</width>
-							<height>25</height>
-							<font>font16</font>
+							<posy>240</posy>
+							<width>375</width>
+							<height>37</height>
+							<font>font22</font>
 							<textcolor>white</textcolor>
 							<selectedcolor>selected</selectedcolor>
 							<align>center</align>
@@ -208,10 +208,10 @@
 						</control>
 						<control type="label">
 							<posx>15</posx>
-							<posy>185</posy>
-							<width>250</width>
-							<height>20</height>
-							<font>font16</font>
+							<posy>277</posy>
+							<width>375</width>
+							<height>30</height>
+							<font>font22</font>
 							<textcolor>white</textcolor>
 							<selectedcolor>selected</selectedcolor>
 							<align>center</align>
@@ -221,8 +221,8 @@
 						<control type="image">
 							<posx>5</posx>
 							<posy>5</posy>
-							<width>270</width>
-							<height>210</height>
+							<width>405</width>
+							<height>315</height>
 							<texture border="5">thumb_focus.png</texture>
 						</control>
 					</focusedlayout>
@@ -249,12 +249,12 @@
 					<viewtype label="535">list</viewtype>
 					<pagecontrol></pagecontrol>
 					<scrolltime>200</scrolltime>
-					<itemlayout height="220" width="210">
+					<itemlayout height="330" width="315">
 						<control type="image">
 							<posx>0</posx>
 							<posy>0</posy>
-							<width>210</width>
-							<height>220</height>
+							<width>315</width>
+							<height>330</height>
 							<texture>black.png</texture>
 							<bordertexture border="6">panel_shadow.png</bordertexture>
 							<bordersize>5</bordersize>
@@ -263,16 +263,16 @@
 						<control type="image">
 							<posx>15</posx>
 							<posy>15</posy>
-							<width>180</width>
-							<height>165</height>
+							<width>270</width>
+							<height>247</height>
 							<texture background="true">$INFO[Listitem.Icon]</texture>
 						</control>
 						<control type="label">
 							<posx>15</posx>
-							<posy>185</posy>
-							<width>190</width>
-							<height>25</height>
-							<font>font16</font>
+							<posy>277</posy>
+							<width>285</width>
+							<height>37</height>
+							<font>font22</font>
 							<textcolor>grey2</textcolor>
 							<selectedcolor>selected</selectedcolor>
 							<align>center</align>
@@ -280,12 +280,12 @@
 							<label>$INFO[ListItem.Label]</label>
 						</control>
 					</itemlayout>
-					<focusedlayout height="170" width="160">
+					<focusedlayout height="255" width="240">
 						<control type="image">
 							<posx>0</posx>
 							<posy>0</posy>
-							<width>210</width>
-							<height>220</height>
+							<width>315</width>
+							<height>330</height>
 							<texture>black.png</texture>
 							<bordertexture border="6">panel_shadow.png</bordertexture>
 							<bordersize>5</bordersize>
@@ -294,16 +294,16 @@
 						<control type="image">
 							<posx>15</posx>
 							<posy>15</posy>
-							<width>180</width>
-							<height>165</height>
+							<width>270</width>
+							<height>247</height>
 							<texture background="true">$INFO[Listitem.Icon]</texture>
 						</control>
 						<control type="label">
 							<posx>15</posx>
-							<posy>185</posy>
-							<width>190</width>
-							<height>25</height>
-							<font>font16</font>
+							<posy>277</posy>
+							<width>285</width>
+							<height>37</height>
+							<font>font22</font>
 							<textcolor>white</textcolor>
 							<selectedcolor>selected</selectedcolor>
 							<align>center</align>
@@ -313,8 +313,8 @@
 						<control type="image">
 							<posx>5</posx>
 							<posy>5</posy>
-							<width>200</width>
-							<height>210</height>
+							<width>300</width>
+							<height>315</height>
 							<texture border="5">thumb_focus.png</texture>
 						</control>
 					</focusedlayout>
@@ -341,12 +341,12 @@
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>60</pagecontrol>
 					<scrolltime>200</scrolltime>
-					<itemlayout height="220" width="210">
+					<itemlayout height="330" width="315">
 						<control type="image">
 							<posx>0</posx>
 							<posy>0</posy>
-							<width>210</width>
-							<height>220</height>
+							<width>315</width>
+							<height>330</height>
 							<texture>black.png</texture>
 							<bordertexture border="6">panel_shadow.png</bordertexture>
 							<bordersize>5</bordersize>
@@ -355,16 +355,16 @@
 						<control type="image">
 							<posx>15</posx>
 							<posy>15</posy>
-							<width>180</width>
-							<height>165</height>
+							<width>270</width>
+							<height>247</height>
 							<texture background="true">$INFO[Listitem.Icon]</texture>
 						</control>
 						<control type="label">
 							<posx>15</posx>
-							<posy>185</posy>
-							<width>190</width>
-							<height>25</height>
-							<font>font16</font>
+							<posy>277</posy>
+							<width>285</width>
+							<height>37</height>
+							<font>font22</font>
 							<textcolor>grey2</textcolor>
 							<selectedcolor>selected</selectedcolor>
 							<align>center</align>
@@ -372,12 +372,12 @@
 							<label>$INFO[ListItem.Label]</label>
 						</control>
 					</itemlayout>
-					<focusedlayout height="170" width="160">
+					<focusedlayout height="255" width="240">
 						<control type="image">
 							<posx>0</posx>
 							<posy>0</posy>
-							<width>210</width>
-							<height>220</height>
+							<width>315</width>
+							<height>330</height>
 							<texture>black.png</texture>
 							<bordertexture border="6">panel_shadow.png</bordertexture>
 							<bordersize>5</bordersize>
@@ -386,16 +386,16 @@
 						<control type="image">
 							<posx>15</posx>
 							<posy>15</posy>
-							<width>180</width>
-							<height>165</height>
+							<width>270</width>
+							<height>247</height>
 							<texture background="true">$INFO[Listitem.Icon]</texture>
 						</control>
 						<control type="label">
 							<posx>15</posx>
-							<posy>185</posy>
-							<width>190</width>
-							<height>25</height>
-							<font>font16</font>
+							<posy>277</posy>
+							<width>285</width>
+							<height>37</height>
+							<font>font22</font>
 							<textcolor>white</textcolor>
 							<selectedcolor>selected</selectedcolor>
 							<align>center</align>
@@ -405,8 +405,8 @@
 						<control type="image">
 							<posx>5</posx>
 							<posy>5</posy>
-							<width>200</width>
-							<height>210</height>
+							<width>300</width>
+							<height>315</height>
 							<texture border="5">thumb_focus.png</texture>
 						</control>
 					</focusedlayout>
